@@ -1,11 +1,11 @@
-# [Gradient Outlier Removal for Gradient-Domain Path Tracing](https://cglab.gist.ac.kr/publications/2019_Outlier_Removal_for_Gradient-domain_Path_Tracing.html)
+# [Gradient Outlier Removal for Gradient-Domain Path Tracing](https://cglab.gist.ac.kr/publications/2019_Gradient_Outlier_Removal_for_Gradient-domain_Path_Tracing.html)
 
 [Saerom Ha](https://cglab.gist.ac.kr/people.html), [Sojin Oh](https://cglab.gist.ac.kr/people.html), [Jonghee Back](https://cglab.gist.ac.kr/people.html), [Sung-Eui Yoon](https://sgvr.kaist.ac.kr/~sungeui/), [Bochang Moon](https://cglab.gist.ac.kr/people/bochang.html)
 
 ![teaser](teaser.png "Gradient Outlier Removal for Gradient-Domain Path Tracing")
 
 ## Overview
-This code is the implementation of the method demonstrated in the paper [Gradient Outlier Removal for Gradient-Domain Path Tracing](https://drive.google.com/open?id=1pV7C3DgXOLmAhW59Us97FR7MP3MU2zPT) by Ha et al. It is based on [gradient-domain path tracing (G-PT)](https://github.com/mmanzi/gradientdomain-mitsuba.git) by Kettunen et al., and improves the rendering quality by adding gradient outlier detection & removal process to G-PT. For more details, please refer to our [project page](https://cglab.gist.ac.kr/publications/2019_Outlier_Removal_for_Gradient-domain_Path_Tracing.html).
+This code is the implementation of the method demonstrated in the paper [Gradient Outlier Removal for Gradient-Domain Path Tracing](https://drive.google.com/open?id=1pV7C3DgXOLmAhW59Us97FR7MP3MU2zPT) by Ha et al. It is based on [gradient-domain path tracing (G-PT)](https://github.com/mmanzi/gradientdomain-mitsuba.git) by Kettunen et al., and improves the rendering quality by adding gradient outlier detection & removal process to G-PT. For more details, please refer to our [project page](https://cglab.gist.ac.kr/publications/2019_Gradient_Outlier_Removal_for_Gradient-domain_Path_Tracing.html).
 
 Our solution is separated into two parts.
 - dependencies implemented on top of G-PT
